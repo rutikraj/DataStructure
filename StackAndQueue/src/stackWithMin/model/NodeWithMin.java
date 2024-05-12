@@ -1,4 +1,4 @@
-package model;
+package stackWithMin.model;
 
 public class NodeWithMin {
 

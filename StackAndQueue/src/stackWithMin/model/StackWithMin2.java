@@ -1,4 +1,4 @@
-package model;
+package stackWithMin.model;
 
 import java.util.Stack;
 

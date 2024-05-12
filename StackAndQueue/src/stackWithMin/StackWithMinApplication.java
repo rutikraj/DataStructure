@@ -1,11 +1,13 @@
-import model.StackWithMin2;
+package stackWithMin;
+
+import stackWithMin.model.StackWithMin;
 
 import java.util.Scanner;
 
-public class StackWithMinApplication2 {
+public class StackWithMinApplication {
 
     public static void main(String []args){
-        StackWithMin2 stk = new StackWithMin2();
+        StackWithMin stk = new StackWithMin();
         Scanner scanner = new Scanner(System.in);
         while(true){
             System.out.println("Enter below choice \n 1) Push() \n 2) Pop() \n 3)Exit");
@@ -18,14 +20,13 @@ public class StackWithMinApplication2 {
                          stk.push(value);
                          break;
                 case 2:
-                        int temp = stk.pop();
+                        int temp = stk.pop().value;
                         System.out.println("Poped element is : "+ temp);
                         break;
                 default: break;
             }
-            System.out.println("Stack is : "+ stk);
         }
         System.out.println("Stack is : "+ stk);
-        System.out.println("Min element is  : "  +stk.getMinValue());
+        System.out.println("Min element is  : "  +stk.peek().min);
     }
 }
