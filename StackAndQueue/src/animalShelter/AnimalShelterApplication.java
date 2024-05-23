@@ -7,6 +7,7 @@ import animalShelter.model.Dog;
 
 import java.util.Scanner;
 
+//3.6
 public class AnimalShelterApplication {
 
     public static void main(String []args) {
