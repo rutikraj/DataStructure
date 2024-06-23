@@ -38,6 +38,9 @@ public class CountPathApp {
         int k = 5;
         int paths = k_path_sum(node1, k);
         System.out.println("Paths: " + paths);
+
+        int paths2 = CountPathWithMap.k_path_sum(node1, k);
+        System.out.println("Paths way 2: " + paths2);
     }
 
 
