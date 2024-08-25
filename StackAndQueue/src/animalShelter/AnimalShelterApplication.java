@@ -10,7 +10,7 @@ import java.util.Scanner;
 //3.6
 public class AnimalShelterApplication {
 
-    public static void main(String []args) {
+    public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         AnimalQueue animalQueue = new AnimalQueue();
         while (true) {
